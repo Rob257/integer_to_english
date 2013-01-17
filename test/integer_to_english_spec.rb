@@ -2,7 +2,7 @@ require '../integer_to_english'
 require 'rspec'
 
 describe Integer, "#to_eng" do
-  it "returns one for 1" do
+  it "returns negative one for -1" do
     -1.to_eng.should == 'negative one'
   end
 
